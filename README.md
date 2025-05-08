@@ -11,9 +11,19 @@ A Computer Vision tool using OpenCV for face detection and FER for emotion recog
 - Sad face → Blue teardrop, "Emotion: sad"
 
 ## Setup
-- Run in Colab with OpenCV and FER.
-- Requires haarcascade_frontalface_default.xml.
+- Run in Google Colab with OpenCV and FER.
+- Requires `haarcascade_frontalface_default.xml`.
 
 ## Demo
-![Happy](filtered_happy.png)
-![Sad](filtered_sad.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="filtered_happy.png" alt="Happy" width="300"/><br/>
+      <strong>Emotion: Happy (0.99)</strong>
+    </td>
+    <td align="center">
+      <img src="filtered_sad.png" alt="Sad" width="300"/><br/>
+      <strong>Emotion: Sad (0.65)</strong>
+    </td>
+  </tr>
+</table>
